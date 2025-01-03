@@ -16,7 +16,7 @@ async function getLLMResponse(prompt) {
     return response.data.choices[0].text.trim();
   } catch (error) {
     console.error("Error fetching response from OpenAI API:", error);
-    throw error;
+    // throw error;
   }
 }
 

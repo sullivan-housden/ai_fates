@@ -22,7 +22,7 @@ async function getPollResults(tweetId) {
     }));
   } catch (error) {
     console.error("Error fetching Twitter poll results:", error);
-    throw error;
+    // throw error;
   }
 }
 

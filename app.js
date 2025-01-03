@@ -5,6 +5,8 @@ const { getPollResults } = require("./twitterPolls");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// TODO: Update to support prompt context through external storage like S3 or something else.
+
 app.use(express.json());
 
 // Route to get a response from OpenAI API
